@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obtener Datos del Usuario con PHP</title>
+</head>
+
+<body>
+ <h1>Calculadora Simple</h1>
+  <form action="/calculator" method="post">
+    <fieldset>
+
+      <label for="txtnumero1">numero1:</label>
+      <input type="text" name="numero1" id="txtnumero1" placeholder="numero1"
+      />
+      <br />
+
+      <label for="txtnumero2">numero2:</label>
+      <input type="text" name="numero2" id="txtnumero2" placeholder="numero2"
+    
+      />
+      
+    </fieldset>
+    <fieldset>
+      <button type="submit" name="btnsumar">Suma</button>
+      <button type="submit" name="btnresta">Resta</button>
+     <button type="submit" name="btnmultiplicacion">Multiplicacion</button>
+     <button type="submit" name="btndivision">Division</button>
+
+    </fieldset>
+  </form>
+
+ <section>
+    {{rstMessage}}
+</section>
+
+</body>
+</html>
